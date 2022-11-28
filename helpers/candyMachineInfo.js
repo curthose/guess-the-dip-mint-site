@@ -1,15 +1,15 @@
-export const candyMachineAddress = "0x2984ab3c7eb5d9b069c142fb368947037e2b603d263911b6d5d17a0c68d0be1c";
+export const candyMachineAddress = "0x7eb78b6fb8f648ea1fb18089e3cdc5dc820ee88fc9432e7c97a362dd9c721a78";
 
 export const collectionName = "Guess the Dip"; // Case sensitive!
-export const MaxMint = 3
-export const COLLECTION_SIZE = 6 
+export const MaxMint = 100
+export const COLLECTION_SIZE = 10000
 
 // To remove the background of the dapp to a solid color just delete the "collectionCoverUrl" url below
 // Any hosted image can be used
 export const collectionCoverUrl = "/preview.gif";
 //export const collectionBackgroundUrl = "https://6wnm7eahnmrz3w3a55pu627ibxus563nsfaykske3uuteyj5h77q.arweave.net/9ZrPkAdrI53bYO9fT2voDeku-22RQYVJRN0pMmE9P_8";
 
-export const mode = "test"; // "dev" or "test" or "mainnet"
+export const mode = "mainnet"; // "dev" or "test" or "mainnet"
 export let NODE_URL;
 export const CONTRACT_ADDRESS = "0x5b71b400de0767bcec88464c33a0c74c839737206883a9379252f4907b8bf30e";
 export const SERVICE_NAME = "ftmpad"

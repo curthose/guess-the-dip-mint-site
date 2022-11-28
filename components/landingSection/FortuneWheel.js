@@ -56,7 +56,7 @@ const FortuneWheel = () => (
         <Typography sx={{marginTop:'10px'}} gutterBottom>
         We set the boundaries of BTC/USD price the top at $17,620 and the bottom price at $3,000. 
         Between this range, there are 10,000 NFTs randomly generated with different BTC/USD prices 
-        This is a freemint project and we collect 10% royalty fees from each transaction in Opensea. 
+        This is a project and we collect 5% royalty fees from each transaction. 
         The 5% of the transaction fees collected until the next halving in 2024 will go to the winner NFT holder. 
         The remaining 5% will go to the last digit matching number of all the NFTs evenly distributed (i.e, if the dip price is 14,502, then all the NFTs with an ending number of &#39;2&#39; will get a share of the price).
         </Typography>
