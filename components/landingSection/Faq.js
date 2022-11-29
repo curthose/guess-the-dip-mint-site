@@ -45,7 +45,7 @@ const Faq = () => (
         <Typography gutterBottom>
         Guess the Dip is a NFT collection inspired by the evolution of Bitcoin. 
         10,000 NFT collection will be 1 APT to mint by the whitelist holders. 
-        
+
         In every cycle, we spot a dip price of Bitcoin, so if you believe yourself as a good guesser, 
         we will make you happy if you guess it right. 
         </Typography>
@@ -80,7 +80,7 @@ const Faq = () => (
         When is the release date? 
         </Typography>
         <Typography gutterBottom>
-        28.11.2022
+        29.11.2022 20.00 GMT
         </Typography>
         <Typography sx={{ fontWeight: 600,marginTop : '30px'}} gutterBottom>
         How do I get a whitelist?
