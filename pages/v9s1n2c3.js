@@ -44,20 +44,20 @@ export default function Home() {
     if (mintInfo.numToMint === 1) {
       setDecActive(current => !current);
       mintInfo.numToMint++; 
-      mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
+      //mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
       mintAmount.textContent = mintInfo.numToMint
     } 
     
     else if (mintInfo.numToMint === MaxMint-1) {
       setIncActive(current => !current);
       mintInfo.numToMint++; 
-      mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
+      //mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
       mintAmount.textContent = mintInfo.numToMint
     } 
     
     else if (mintInfo.numToMint < MaxMint) {
       mintInfo.numToMint++; 
-      mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
+      //mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
       mintAmount.textContent = mintInfo.numToMint
     }
   }
@@ -66,7 +66,7 @@ export default function Home() {
     const mintfee = document.getElementById("mintfee")
     const mintAmount = document.getElementById("mintAmount")
         mintInfo.numToMint = 100; 
-        mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
+        //mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
         mintAmount.textContent = 100;
         console.log(mintAmount.textContent);
   }
@@ -78,20 +78,20 @@ export default function Home() {
     if (mintInfo.numToMint === 2) {
       setDecActive(current => !current);
       mintInfo.numToMint--; 
-      mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
+      //mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
       mintAmount.textContent = mintInfo.numToMint
     } 
     
     else if (mintInfo.numToMint === MaxMint) {
       setIncActive(current => !current);
       mintInfo.numToMint--; 
-      mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
+      //mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
       mintAmount.textContent = mintInfo.numToMint
     } 
     
     else if (mintInfo.numToMint > 1) {
       mintInfo.numToMint--;
-      mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT` 
+      //mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT` 
       mintAmount.textContent = mintInfo.numToMint
 
     }
