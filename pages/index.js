@@ -34,7 +34,16 @@ export default function Home() {
         spacing={4}
       >
         
-
+        <Button
+        variant="contained"
+        href="/mint"
+        size="large"
+        color="warning"
+        disableElevation
+        endIcon={<TrendingDownIcon />}
+      >
+        MINT
+        </Button>
         
         <MuiNextLink
           sx={{ textDecoration: "none", color: 'white' }}

@@ -264,7 +264,7 @@ export default function Home() {
                 <h6 id="mintfee">1 $APT</h6>
               </div>
               <div className={styles.spacebetween}>
-                <h6>Whitelist Mint: </h6>
+                <h6>Mint Status: </h6>
                 <h6>{timeLeftToMint.public === "LIVE" ? "LIVE" : timeLeftToMint.public.days + " d : " + timeLeftToMint.public.hours + " h : " + timeLeftToMint.public.minutes + " m : " + timeLeftToMint.public.seconds + " s"}</h6>
               </div>
             </div>
