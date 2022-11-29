@@ -261,7 +261,7 @@ export default function Home() {
               </div>
               <div className={styles.spacebetween}>
                 <h6>Mint fee: </h6>
-                <h6 id="mintfee">{candyMachineData.data.mintFee * mintInfo.numToMint} $APT</h6>
+                <h6 id="mintfee">1 $APT</h6>
               </div>
               <div className={styles.spacebetween}>
                 <h6>Whitelist Mint: </h6>
