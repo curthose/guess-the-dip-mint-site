@@ -65,7 +65,7 @@ export default function Home() {
   const maxMintAmount = async () => {
     const mintfee = document.getElementById("mintfee")
     const mintAmount = document.getElementById("mintAmount")
-        mintInfo.numToMint == 100; 
+        mintInfo.numToMint = 100; 
         mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
         mintAmount.textContent = 100;
         console.log(mintAmount.textContent);
