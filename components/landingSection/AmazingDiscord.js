@@ -60,7 +60,7 @@ Just like our upcoming project itself, huh?
         </Typography>
         <MuiNextLink
           sx={{ textDecoration: "none", color: 'white' }}
-          href="http://discord.gg/XHyEDSbUS6"
+          href="https://discord.com/invite/abPXDYwwHc"
           target="_blank"
           rel="noopener noreferrer"
         >
