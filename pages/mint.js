@@ -245,7 +245,6 @@ export default function Home() {
               <div className="d-flex align-items-center my-3">
                 <div className={styles.inputbtnsbox}>
                 <button onClick={incrementMintAmount} className={styles.inputbtns} style={{border: incActive ? '' : '1px solid grey'}}>▲</button>
-                <button onClick={maxMintAmount} className={styles.inputbtns} style={{border: incActive ? '' : '2px solid grey'}}>MAX</button>
                 <button onClick={decrementMintAmount} className={styles.inputbtns} style={{border: decActive ? '' : '1px solid grey' }}>▼</button>
                 </div>
                 <div id="mint-amount-input" className={`${styles.defaultInput} me-3`}>
