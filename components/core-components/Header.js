@@ -19,7 +19,7 @@ const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 export const navLinks = [
   { title: 'home', path: '/#home' },
   { title: 'faq', path: '/#faq' }//,
-  //{ title: 'mint', path: '/mint' }
+  { title: 'mint', path: '/mint' }
 ];
 
 const Header = () => {
