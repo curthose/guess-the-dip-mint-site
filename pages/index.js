@@ -42,7 +42,7 @@ export default function Home() {
         disableElevation
         endIcon={<TrendingDownIcon />}
       >
-        MINT
+        MINT NOW
         </Button>
         
         <MuiNextLink
