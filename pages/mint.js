@@ -259,7 +259,7 @@ export default function Home() {
                 <h6>{candyMachineData.data.numMintedTokens} / {COLLECTION_SIZE}</h6>
               </div>
               <div className={styles.spacebetween}>
-                <h6>Mint fee: </h6>
+                <h6>Mint Price: </h6>
                 <h6 id="mintfee">1 $APT</h6>
               </div>
               <div className={styles.spacebetween}>
