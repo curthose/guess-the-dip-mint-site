@@ -1,4 +1,4 @@
-export const candyMachineAddress = "0x7eb78b6fb8f648ea1fb18089e3cdc5dc820ee88fc9432e7c97a362dd9c721a78";
+export const candyMachineAddress = "0xd287125190d81af6737d8f0cb6d5d6957690ba4dda0a332478d4a37faa4ecfc9";
 
 export const collectionName = "Guess the Dip"; // Case sensitive!
 export const MaxMint = 100

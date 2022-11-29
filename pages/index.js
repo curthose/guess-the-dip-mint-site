@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import MuiNextLink from '../components/core-components/MuiNextLink';
-import { Container, Stack, Box, Grid, Typography } from '@mui/material';
+import { Container, Button, Stack, Box, Grid, Typography } from '@mui/material';
 import { Twitter } from "@mui/icons-material";
 import LandingSection from '../components/landingSection';
+import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 import Image from 'next/image';
 
 export default function Home() {
@@ -26,11 +27,15 @@ export default function Home() {
             <Typography align="center" variant="subtitle1" gutterBottom>
             10,000 uniquely generated NFTs on Aptos Blockchain.  Also, they are all random guesses. The winners will receive prizes.
             </Typography>
+
       <Stack
         direction="row"
         justifyContent="center"
         spacing={4}
       >
+        
+
+        
         <MuiNextLink
           sx={{ textDecoration: "none", color: 'white' }}
           href="https://twitter.com/guessthedip"

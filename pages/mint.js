@@ -62,6 +62,15 @@ export default function Home() {
     }
   }
 
+  const maxMintAmount = async () => {
+    const mintfee = document.getElementById("mintfee")
+    const mintAmount = document.getElementById("mintAmount")
+        mintInfo.numToMint == 100; 
+        mintfee.textContent = `${(candyMachineData.data.mintFee * mintInfo.numToMint).toFixed(2)} $APT`
+        mintAmount.textContent = 100;
+        console.log(mintAmount.textContent);
+  }
+
   const decrementMintAmount = async () => {
     const mintfee = document.getElementById("mintfee")
     const mintAmount = document.getElementById("mintAmount")
@@ -236,6 +245,7 @@ export default function Home() {
               <div className="d-flex align-items-center my-3">
                 <div className={styles.inputbtnsbox}>
                 <button onClick={incrementMintAmount} className={styles.inputbtns} style={{border: incActive ? '' : '1px solid grey'}}>▲</button>
+                <button onClick={maxMintAmount} className={styles.inputbtns} style={{border: incActive ? '' : '2px solid grey'}}>MAX</button>
                 <button onClick={decrementMintAmount} className={styles.inputbtns} style={{border: decActive ? '' : '1px solid grey' }}>▼</button>
                 </div>
                 <div id="mint-amount-input" className={`${styles.defaultInput} me-3`}>
@@ -246,7 +256,7 @@ export default function Home() {
             </>}
             <div className={styles.mintstats}>
               <div className={styles.spacebetween}>
-                <h6>Minted NFTs:</h6>
+                <h6>Total Minted:</h6>
                 <h6>{candyMachineData.data.numMintedTokens} / {COLLECTION_SIZE}</h6>
               </div>
               <div className={styles.spacebetween}>
@@ -254,15 +264,7 @@ export default function Home() {
                 <h6 id="mintfee">{candyMachineData.data.mintFee * mintInfo.numToMint} $APT</h6>
               </div>
               <div className={styles.spacebetween}>
-                <h6>Max mints per wallet: </h6>
-                <h6>{MaxMint}</h6>
-              </div>
-              <div className={styles.spacebetween}>
-                <h6>Whitelist Mint:</h6>
-                <h6>{timeLeftToMint.presale === "LIVE" ? "LIVE" : timeLeftToMint.presale.days + " d : " + timeLeftToMint.presale.hours + " h : " + timeLeftToMint.presale.minutes + " m : " + timeLeftToMint.presale.seconds + " s"}</h6>
-              </div>
-              <div className={styles.spacebetween}>
-                <h6>Public Mint: </h6>
+                <h6>Whitelist Mint: </h6>
                 <h6>{timeLeftToMint.public === "LIVE" ? "LIVE" : timeLeftToMint.public.days + " d : " + timeLeftToMint.public.hours + " h : " + timeLeftToMint.public.minutes + " m : " + timeLeftToMint.public.seconds + " s"}</h6>
               </div>
             </div>

@@ -44,7 +44,8 @@ const Faq = () => (
         </Typography>
         <Typography gutterBottom>
         Guess the Dip is a NFT collection inspired by the evolution of Bitcoin. 
-        10,000 NFT collection will be free to mint by the whitelist holders. 
+        10,000 NFT collection will be 1 APT to mint by the whitelist holders. 
+        
         In every cycle, we spot a dip price of Bitcoin, so if you believe yourself as a good guesser, 
         we will make you happy if you guess it right. 
         </Typography>
