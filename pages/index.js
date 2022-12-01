@@ -36,13 +36,12 @@ export default function Home() {
         
         <Button
         variant="contained"
-        href="/mint"
+        href="#"
         size="large"
         color="warning"
         disableElevation
-        endIcon={<TrendingDownIcon />}
       >
-        MINT NOW
+        SOLD OUT!
         </Button>
         
         <MuiNextLink
