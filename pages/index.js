@@ -5,6 +5,7 @@ import { Twitter } from "@mui/icons-material";
 import LandingSection from '../components/landingSection';
 import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 import Image from 'next/image';
+import StoreIcon from '@mui/icons-material/Store';
 
 export default function Home() {
   return (
@@ -35,13 +36,27 @@ export default function Home() {
       >
         
         <Button
-        variant="contained"
-        href="#"
-        size="large"
+        variant="outlined"
+        href="https://www.topaz.so/collection/Guess-the-Dip-2edff2f20e"
+        size="medium"
         color="warning"
+        target="_blank"
         disableElevation
+        endIcon={<StoreIcon />}
       >
-        SOLD OUT!
+        Topaz
+        </Button>
+
+        <Button
+        variant="outlined"
+        href="https://bluemove.net/collection/guess-the-dip"
+        size="medium"
+        color="warning"
+        target="_blank"
+        disableElevation
+        endIcon={<StoreIcon />}
+      >
+        Bluemove
         </Button>
         
         <MuiNextLink
